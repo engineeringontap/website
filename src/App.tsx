@@ -21,7 +21,7 @@ class App extends Component {
             <li className={styles.listItem}>20. September 2019, to be announced</li>
             <li className={styles.listItem}>18. Oktober 2019, to be announced</li>
             <li className={styles.listItem}>19. November 2019, to be announced</li>
-          </ul>o
+          </ul>
         </div>
       </div>
     );
