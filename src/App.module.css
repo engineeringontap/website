@@ -28,6 +28,7 @@
   font-weight: 700;
   font-size: 20px;
   opacity: 0.9;
+  max-width: 600px;
 }
 
 .listItem:first-child {
