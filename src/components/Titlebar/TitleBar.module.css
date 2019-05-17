@@ -16,26 +16,17 @@
 	position: fixed;
 	z-index: 1000;
 	top: 0;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
 
 .titlebarLogo {
 	width: 40px;
 	margin-right: 20px;
 	margin-left: 10px;
-	animation: logo-spin infinite 20s linear;
 }
 
 .titlelink {
 	text-decoration: none;
 	color: white;
 	margin-left: 20px;
-}
-
-@keyframes logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
 }
