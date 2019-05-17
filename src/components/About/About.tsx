@@ -10,9 +10,9 @@ export const About: React.FC = () => {
 			<p className={styles.text}>
 				The worldwide developer community offers countless events with sales events, workshops and
 				tutorials. Our new event engineering on tap is the opposite of the known formats. We have no
-				stage and no spotlight. Instead there is a counter, beer (or limo) and screens to show code.
-				Devs and other tech people talk about the latest tools, trends and things that keep them
-				busy.
+				stage and no spotlight. Instead there is a counter, beer (or lemonade) and screens to show
+				code. Devs and other tech people talk about the latest tools, trends and things that keep
+				them busy.
 			</p>
 		</div>
 	);
