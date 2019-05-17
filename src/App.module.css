@@ -24,6 +24,7 @@
 	justify-content: center;
 	align-items: center;
 	background: url("./assets/wood.jpg");
+	background-size: cover;
 }
 
 .sectiontitle {

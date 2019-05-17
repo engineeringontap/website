@@ -13,3 +13,8 @@
 .image:hover {
 	cursor: pointer;
 }
+
+.hafenquelle {
+	margin-top: 10px;
+	width: 300px;
+}
