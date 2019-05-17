@@ -1,0 +1,21 @@
+.root {
+	padding: 10px 20px;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+}
+
+.listItem {
+	line-height: 1.4;
+	font-weight: 700;
+	font-size: 20px;
+	opacity: 0.9;
+	max-width: 800px;
+	text-align: center;
+}
+
+.listItem:first-child {
+	font-size: 50px;
+}

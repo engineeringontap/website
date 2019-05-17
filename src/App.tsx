@@ -1,30 +1,25 @@
-import React, { Component } from "react";
-import logo from "./beer.svg";
+import React from "react";
 import styles from "./App.module.css";
+import { CodeOfConduct } from "./components/CodeOfConduct/CodeOfConduct";
+import { Dates } from "./components/Dates/Dates";
+import { Footer } from "./components/Footer/Footer";
+import { TitleBar } from "./components/Titlebar/TitleBar";
 
-class App extends Component {
-  render() {
-    return (
-      <div className={styles.App}>
-        <header className={styles.header}>
-          <img src={logo} className={styles.logo} alt="logo" />
-          <h1 className={styles.title}>#engineeringontap</h1>
-        </header>
-        <div className={styles.dates}>
-          <ul className={styles.list}>
-            <li className={styles.listItem}>18. April 2019, How to become a better software engineer by doing nothing</li>
-            <li className={styles.listItem}>17. Mai 2019, Going Serverless with Knative</li>
-            <li className={styles.listItem}>21. Juni 2019, to be announced</li>
-            <li className={styles.listItem}>19. Juli 2019, to be announced</li>
-            <li className={styles.listItem}>16. August 2019, to be announced</li>
-            <li className={styles.listItem}>20. September 2019, to be announced</li>
-            <li className={styles.listItem}>18. Oktober 2019, to be announced</li>
-            <li className={styles.listItem}>19. November 2019, to be announced</li>
-          </ul>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default App;
+export const App: React.FC = () => {
+	return (
+		<div className={styles.root}>
+			<TitleBar />
+			<div className={styles.content} id={"start"}>
+				<h2 className={styles.sectiontitle} id={"dates"}>
+					Next events
+				</h2>
+				<Dates />
+				<h2 className={styles.sectiontitle} id={"dates"}>
+					Code of conduct
+				</h2>
+				<CodeOfConduct />
+			</div>
+			<Footer />
+		</div>
+	);
+};

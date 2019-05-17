@@ -1,0 +1,14 @@
+.root {
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	padding: 10px 20px;
+}
+
+.text {
+	line-height: 1.5;
+	font-size: 20px;
+}

@@ -1,0 +1,12 @@
+.root {
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 40px 0;
+}
+
+.prsentedBy {
+	width: 300px;
+}
