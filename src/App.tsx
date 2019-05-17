@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./App.module.css";
+import deckel from "./assets/deckel.png";
+import { About } from "./components/About/About";
 import { CodeOfConduct } from "./components/CodeOfConduct/CodeOfConduct";
 import { Dates } from "./components/Dates/Dates";
+import { EventLocation } from "./components/EventLocation/EventLocation";
 import { Footer } from "./components/Footer/Footer";
-import deckel from "./assets/deckel.png";
 import { TitleBar } from "./components/Titlebar/TitleBar";
 
 export const App: React.FC = () => {
@@ -12,14 +14,13 @@ export const App: React.FC = () => {
 			<TitleBar />
 			<div className={styles.content} id={"start"}>
 				<img className={styles.deckel} src={deckel} alt="deckel" />
-				<h2 className={styles.sectiontitle} id={"dates"}>
-					Next events
-				</h2>
+
+				<About />
 				<Dates />
-				<h2 className={styles.sectiontitle} id={"dates"}>
-					Code of conduct
-				</h2>
+
 				<CodeOfConduct />
+
+				<EventLocation />
 			</div>
 			<Footer />
 		</div>

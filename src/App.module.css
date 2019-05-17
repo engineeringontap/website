@@ -16,7 +16,7 @@
 }
 
 .content {
-	padding: 100px 0;
+	padding: 100px 0 0 0;
 	width: 100%;
 	flex-grow: 1;
 	display: flex;
@@ -28,8 +28,11 @@
 
 .sectiontitle {
 	font-size: 30px;
-	color: white;
+	/* color: white; */
+	color: rgba(255, 255, 255, 0.9);
 	text-decoration: none;
+	width: 100%;
+	max-width: 600px;
 }
 
 .deckel {

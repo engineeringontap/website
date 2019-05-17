@@ -1,0 +1,15 @@
+.root {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: -5px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 4px;
+}
+
+.image {
+	width: 100%;
+}
+
+.image:hover {
+	cursor: pointer;
+}

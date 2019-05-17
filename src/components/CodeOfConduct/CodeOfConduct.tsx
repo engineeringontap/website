@@ -3,7 +3,10 @@ import styles from "./CodeOfConduct.module.css";
 
 export const CodeOfConduct: React.FC = () => {
 	return (
-		<div className={styles.root} id={"coc"}>
+		<div className={styles.root}>
+			<h2 className={styles.sectiontitle} id={"coc"}>
+				Code of conduct
+			</h2>
 			<p className={styles.text}>
 				Our event is dedicated to providing a harassment-free experience for everyone, regardless of
 				gender, gender identity and expression, age, sexual orientation, disability, physical

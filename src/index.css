@@ -9,6 +9,7 @@ body,
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: "Open Sans", sans-serif;
+	transition: none;
 	margin: 0;
 	padding: 0;
 }
