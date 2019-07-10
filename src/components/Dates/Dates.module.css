@@ -2,6 +2,7 @@
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 4px;
 	margin-bottom: 25px;
+	padding: 10px 0;
 }
 
 .list {
@@ -20,4 +21,11 @@
 .listItem:first-child {
 	font-weight: 700;
 	font-size: 40px;
+}
+
+.link {
+	color: white;
+}
+
+.link:hover {
 }
