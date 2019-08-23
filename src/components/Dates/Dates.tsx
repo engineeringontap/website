@@ -8,9 +8,7 @@ export const Dates: React.FC = () => {
 				Next events
 			</h2>
 			<ul className={styles.list}>
-				<li className={styles.listItem}>20. September 2019, to be announced</li>
-				<li className={styles.listItem}>18. Oktober 2019, to be announced</li>
-				<li className={styles.listItem}>19. November 2019, to be announced</li>
+				<li className={styles.listItem}>Do 17. Oktober 2019, to be announced</li>
 			</ul>
 			<p>
 				Got something to talk about?
